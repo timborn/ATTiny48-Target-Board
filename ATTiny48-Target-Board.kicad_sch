@@ -7,7 +7,9 @@
   (title_block
     (title "ATtiny48 Breakout Board")
     (date "2023-06-13")
-    (rev "v0.4")
+    (rev "v1.0")
+    (comment 1 "Bare Bones MicroController for ATtiny48 & ATtiny88")
+    (comment 2 "BBMC-T48/T88")
   )
 
   (lib_symbols
@@ -1084,11 +1086,6 @@
     (at 156.21 29.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 388078ee-91a6-413f-843e-c9ea28412e08)
-  )
-  (text "BBMC-T48/T88\nBare Bones MicroController for ATtiny48 & ATtiny88"
-    (at 161.29 180.34 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 64d8c25d-8061-46d4-a4c2-6b1e7641f181)
   )
   (text "Analog Noise Canceling\nSection 17.9 in datasheet" (at 205.74 107.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))

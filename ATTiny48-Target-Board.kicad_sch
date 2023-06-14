@@ -7,7 +7,7 @@
   (title_block
     (title "ATtiny48 Breakout Board")
     (date "2023-06-14")
-    (rev "v1.1")
+    (rev "v1.2")
     (comment 1 "Bare Bones MicroController for ATtiny48 & ATtiny88")
     (comment 2 "BBMC-T48/T88")
   )

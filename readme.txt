@@ -1,4 +1,4 @@
-Wed Jun 14 15:09:53 MST 2023 
+Wed Jun 14 15:49:03 MST 2023
 ----------------------------
 _X_ add pads for ISP connector
 _X_ gotta have an LED to we can detect life
@@ -12,6 +12,7 @@ _X_ pin headers to fit std breadboard
 _X_ reset button
 _X_ panelize boards
 _X_ fix installation of kikit that broke with upgrade of KiCad to 7.0.5
+___ UNpanelize board
 
 
 1.  Git Tag each version and make sure you push tags to origin
@@ -104,3 +105,6 @@ _X_ fix installation of kikit that broke with upgrade of KiCad to 7.0.5
 9. 5-8 can be summed up as 1) I upgraded versions of KiCad and KiKit and 
    2) running kikit for paneling inside a Docker container is *way* more
    stable and faster for iterating until you get something you like.
+
+10. When I submitted my 1x3 panelized version (well inside the 100x100mm) they
+   changed the price from $5 to $33.  $15 for USPS, so $20/5 boards vs $48/15 boards.

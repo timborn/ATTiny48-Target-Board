@@ -1,19 +1,16 @@
-Tue May 23 11:24:11 MST 2023
+Tue Jun 13 17:01:21 MST 2023
 ----------------------------
-The SWR Protector needs a display for SWR readings.
-Since we have both Vfwd and Vref, we should be able to figure this out.
+_X_ add pads for ISP connector
+_X_ gotta have an LED to we can detect life
+_X_ decoupling caps between VCC and GND
+_na pull-up resistor on VCC
+    Data sheet section 22, Electrical Characteristics shows the reset pin
+    has a built-in pull-up resistor of between 30 and 60 Ohms, so we shouldn't 
+    need an external pull-up, especially for a bare bones system.
+_X_ noise filtering ckt between VCC and AVCC (so ADC works better)
+_X_ pin headers to fit std breadboard
+_X_ reset button
 
-VSWR=(𝑉fwd+𝑉ref) / (𝑉fwd−𝑉ref)
 
-- https://www.electronics-notes.com/articles/antennas-propagation/vswr-return-loss/vswr-calculations-formulas-equations.php
-
-___ Use ADC to read both Vfwd and Vref
-___ figure out how to drive ~1" OLED via I2C
-___ small enough to fit in the box?
-    ___ how to physically attach display to inside of box?
-___ apply power saving measures
-    ___ sleep often
-    ___ turn off all parts of the chip not being used
-    ___ how do I measure current consumption?
-___ Do we need/want BOD?
-___ If you design a PCB at least add pads for ISP connector
+1.  Git Tag each version and make sure you push tags to origin
+    https://git-scm.com/book/en/v2/Git-Basics-Tagging

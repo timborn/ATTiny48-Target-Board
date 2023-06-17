@@ -1,4 +1,4 @@
-Wed Jun 14 15:49:03 MST 2023
+Fri Jun 16 17:11:15 MST 2023
 ----------------------------
 _X_ add pads for ISP connector
 _X_ gotta have an LED to we can detect life
@@ -108,3 +108,6 @@ ___ UNpanelize board
 
 10. When I submitted my 1x3 panelized version (well inside the 100x100mm) they
    changed the price from $5 to $33.  $15 for USPS, so $20/5 boards vs $48/15 boards.
+
+11. TODO: add a four pin header for FTDI so I can have USB to serial interface.
+   Is there a standard for this interface?  Seems like the order of pins is all over the place.
